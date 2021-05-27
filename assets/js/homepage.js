@@ -129,9 +129,6 @@ var fiveDay = function () {
                         }
             }) .then(function (response) {
                     fiveDayEl.textContent = "";
-                    // var newContainer = document.createElement("div");
-                    // newContainer.setAttribute("id", "five-day-forecast");
-                    // newContainer.appendChild(fiveContainer);
                     for(var i = 1; i < 6; i++) {
                     var card = document.createElement("div");
                     card.setAttribute("id", "card");
@@ -185,13 +182,7 @@ var fiveDay = function () {
             })
         }
 
-        // var removeEl = function () {
-        //     // debugger;
-        
-        //     fiveDayEl.remove();
-
-        // }
-   
+       
 
 
 
@@ -211,9 +202,7 @@ recentBtn.forEach(function(btn){
 
 
 btnSearch.addEventListener("click", function () {
-    
     getWeatherApi();
-    
     fiveDay();
 
 })
