@@ -17,7 +17,7 @@ the following project was created in an effort to meet the following criteria:
 
 a weather API was used to retrieve necessary weather data, as well as JS,CSS,HTML working in conjunction to provide the proper layout. Bootstrap was also used as well as Moment.js to allow proper styling and time retrieval to convert unix time into modernized timeframes.
 
-![Weather_Dashboard](https://user-images.githubusercontent.com/79546270/119788911-6a681300-be87-11eb-9166-9860e0620580.JPG) - Image of project
+![Weather_Dashboard](https://user-images.githubusercontent.com/79546270/119788911-6a681300-be87-11eb-9166-9860e0620580.JPG) Image of project
 
 
 https://frostquill.github.io/weather-dashboard/ - url of live Page
