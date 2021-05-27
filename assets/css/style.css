@@ -1,5 +1,5 @@
 header {
-    background: linear-gradient(to left, #0000ff 50%, #ffffff 100%);
+    background: linear-gradient(to left, darkblue 50%, #ffffff 100%);
     margin:0;
     padding:0;
     display:flex;
@@ -51,6 +51,10 @@ header {
     
 }
 
+.height { 
+    height:800px;
+}
+
 
 
 .searchHistory {
@@ -64,5 +68,29 @@ header {
     border-radius:5px;
     text-align:center;
     
+}
+
+.card-set {
+    background-color: rgb(55, 115, 174);
+    height: 230px;
+    width:230px;
+    margin:0 5px;
+    border-radius:5px;
+}
+
+.card-txt-header {
+    font-size:30px;
+    color:whitesmoke;
+    padding-top:5px;
+}
+
+.card-txt {
+    font-size:15px;
+    color:whitesmoke;
+    
+}
+
+.icon-size {
+    height:50px;
 }
 
